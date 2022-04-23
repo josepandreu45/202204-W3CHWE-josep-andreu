@@ -3,5 +3,57 @@
 }
 
 body {
-  color: #060;
+  color: #000;
+  margin: 0;
+  height: 100vh;
+}
+
+main {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+  }
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
 }
