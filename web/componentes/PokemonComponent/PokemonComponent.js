@@ -6,7 +6,7 @@ class PokemonComponent extends Component {
   type;
   weight;
   constructor(parentElement, name, image, type, weight) {
-    super(parentElement, "main", "pokemon-card");
+    super(parentElement, "section", "pokemon");
     this.name = name;
     this.image = image;
     this.type = type;
@@ -16,7 +16,7 @@ class PokemonComponent extends Component {
 
   render() {
     this.element.innerHTML = `
-  <section class="pokemon">
+  
         <h2>${this.name}</h2>
 
         <img
@@ -46,7 +46,7 @@ class PokemonComponent extends Component {
               width="25"
           /></i>
         </div>
-      </section>
+      
       `;
   }
 }
