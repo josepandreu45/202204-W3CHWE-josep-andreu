@@ -3,10 +3,19 @@
 }
 
 body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #000;
   margin: 0;
   height: 100vh;
   max-width: 100vw;
+  color: #534c42;
+  background: rgb(14, 8, 102);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 8, 102, 1) 1%,
+    rgba(9, 9, 96, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 main {
@@ -26,6 +35,7 @@ main {
   }
 
   &__list {
+    font-size: 25px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -34,7 +44,7 @@ main {
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #fd1d1d;
 }
 
 .pokemon {
@@ -45,6 +55,12 @@ a {
   height: 350px;
   border: 1px solid black;
   border-radius: 15px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 
   &__list {
     display: flex;
