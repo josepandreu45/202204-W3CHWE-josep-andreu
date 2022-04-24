@@ -8,7 +8,7 @@ class HeaderComponent extends Component {
   }
 
   render() {
-    this.element.innerHTML = `<h1 class="header__title">Pokemon</h1>
+    this.element.innerHTML = `<h1 class="header__title">POKEMON</h1>
     <nav class="header__nav">
       <ul class="header__list">
         <li><a href="">Listado Pokemon</a></li>

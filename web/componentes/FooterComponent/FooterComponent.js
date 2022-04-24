@@ -8,8 +8,8 @@ class FooterComponent extends Component {
   }
 
   render() {
-    this.element.innerHTML = ` <button>ANTERIOR</button>
-      <button>SIGUIENTE</button>`;
+    this.element.innerHTML = ` <button class="anterior">ANTERIOR</button>
+      <button class="siguiente">SIGUIENTE</button>`;
   }
 }
 
